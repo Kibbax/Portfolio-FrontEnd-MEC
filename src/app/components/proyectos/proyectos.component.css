@@ -1,0 +1,17 @@
+.row{
+    padding: 20px;
+    background-color: #dadad8;
+    
+}
+.contenedor{
+    width: auto;
+}
+.tarjetaProyecto{
+    display: inline-block;
+    text-align: justify;
+}
+.fotoproyecto{
+   
+    box-shadow: 10px 10px 30px #000000;
+}
+

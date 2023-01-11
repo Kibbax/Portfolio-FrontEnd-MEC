@@ -1,0 +1,11 @@
+.row{
+    background: #dadad8;
+    padding: 20px;
+    
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
