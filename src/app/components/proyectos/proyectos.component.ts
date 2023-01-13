@@ -37,7 +37,7 @@ export class ProyectosComponent implements OnInit {
         this.proyectoService.delete(id).subscribe(
           data => {
             this.cargarProyecto();
-            alert("Proyecto Borrada")
+            alert("Proyecto Borrado")
           }, err => {
             alert("No se pudo borrar la Proyecto");
           }

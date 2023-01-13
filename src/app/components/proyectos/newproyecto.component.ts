@@ -14,7 +14,7 @@ import { ProyectoService } from 'src/app/service/proyecto.service';
 export class NewproyectoComponent implements OnInit{
   nombre: string;
   descripcion: string;
-  img: string;
+  imgpro: string;
   url_imagen: string;
 
   constructor(
@@ -27,7 +27,7 @@ export class NewproyectoComponent implements OnInit{
   }
 
   onCreate(): void {
-    const save = this.img = this.imageService.url
+    const save = this.imgpro = this.imageService.url
     console.log(save)
     const proyects = new Proyecto(this.nombre, this.descripcion, save, this.url_imagen);
     this.proyectoService.save(proyects).subscribe({
